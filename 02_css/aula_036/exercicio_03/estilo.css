@@ -1,0 +1,84 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin: 0px
+}
+div{ 
+    box-sizing: border-box;
+    padding: 5px;
+    border: 2px solid black;
+}
+.pai{
+    background-color: lightgreen;
+    width: 70%;
+    min-height: 400px;
+    margin: auto;
+    margin-bottom: 40px;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.filho{
+    border: 1px solid black;
+    background-color: coral;
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+}
+#pai-1, #pai-6{width: 400px;}
+#pai-1, #pai-2{
+    align-content: center;
+    flex-wrap: wrap;
+}
+#pai-1 .filho-5{
+    order:-1;
+    background-color: yellow;
+}
+#pai-1 .filho-1{
+    order:1;
+    background-color: red;
+}
+#pai-2 .filho-5{
+    background-color: yellow;
+    flex-grow: 2;
+}
+#pai-2 .filho-6{
+    background-color: red;
+    flex-grow: 1;
+}
+
+#pai-3 .filho-5{
+    flex-shrink: 5;
+    background-color: orange;
+}
+#pai-3 .filho-4{
+    flex-shrink: 4;
+    background-color: green;
+}
+#pai-3 .filho-3{
+    flex-shrink: 3;
+    background-color: yellow;
+}
+#pai-3 .filho-2{
+    flex-shrink: 2;
+    background-color: violet;
+}
+#pai-3 .filho-1{
+    flex-shrink: 1;
+}
+
+#pai-4 .filho-3{
+    flex-basis: content;
+    background-color: yellow;
+}
+
+#pai-5 .filho-3{
+    flex-basis: 250px;
+    background-color: yellow;
+}
+
+#pai-6 .filho-3{
+    align-self:flex-end;
+    background-color: yellow;
+}

@@ -1,0 +1,37 @@
+p::first-letter{
+    color: blueviolet;
+    font-size: xx-large;
+}
+p::first-line{
+    color:#0000ff;
+    font-variant: small-caps;
+}
+
+div::first-line{
+    color: blue;
+    font-variant: small-caps;
+    background-color: yellow;
+    text-decoration: underline red;
+}
+
+h1::after{
+    content: url('imagens/happy.png');
+}
+
+li::marker{
+    color: red;
+    content: url(imagens/happy.png);
+}
+p::before{
+    content: url(imagens/happy.png);
+}
+
+::selection{
+    color: aqua;
+    background-color: yellow;
+
+}
+div::selection{
+    color:orange;
+    background-color: black;
+}

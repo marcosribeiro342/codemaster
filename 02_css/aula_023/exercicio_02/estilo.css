@@ -1,0 +1,80 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+button{
+    margin: 10px;
+}
+
+#botao-1{
+    cursor: default;
+}
+
+#botao-2{
+    cursor: pointer;
+}
+
+#botao-3{
+    cursor: wait;
+}
+
+#botao-4{
+    cursor: grab;
+}
+
+#botao-5{
+    cursor: grabbing;
+}
+
+#botao-6{
+    cursor: crosshair;
+}
+
+#botao-7{
+    cursor: zoom-in;
+}
+
+#botao-8{
+    cursor: zoom-out;
+}
+
+#botao-9{
+    cursor: all-scroll;
+}
+
+#botao-10{
+    cursor: cell;
+}
+
+#botao-11{
+    cursor: copy;
+}
+
+#botao-12{
+    cursor: help;
+}
+
+#botao-13{
+    cursor: progress;
+}
+#botao-14{
+    background-color: red;
+    border: 2px dotted black;
+    border-radius: 10px;
+    color: white;
+}
+
+#botao-15{
+    background-color: green;
+    border: 2px dotted black;
+    border-radius: 10px;
+    color: white;
+}
+
+#botao-16{
+    background-color: blue;
+    border: 2px dotted black;
+    border-radius: 10px;
+    color: white;
+}

@@ -1,0 +1,77 @@
+body{
+    margin: 0px;
+}
+.azul{
+    background-color: aqua;
+}
+
+/*---Cabeçalho---*/
+
+#cabecalho-sol{
+    width: 120px;
+    height: 120px;
+}
+
+/*---Meio---*/   
+
+img{
+    height: 50px;
+}
+#meio-imagens-1{
+    margin: 0px 100px;
+}
+
+#meio-imagens-2{
+    height: 50px;
+    margin: 0px;
+}
+
+#meio-imagens-3{
+    margin: 0px 120px;
+}
+
+#meio-imagens-4{
+    margin: 0px 150px;
+}
+
+#meio-imagens-5{
+    height: 80px;
+    width: 80px;
+    margin: 0px 13px;
+}
+
+#meio-imagens-6{
+    height: 110px;
+    width: 110px;
+    margin: 0px 13px;
+}
+
+#meio-imagens-7{
+    height: 140px;
+    width: 140px;
+    margin: 0px 13px;
+}
+
+#meio-imagens-8{
+    height: 125px;
+    width: 125px;
+    margin: 0px 13px;
+}
+#meio-imagens-9{
+    height: 60px;
+    width: 60px;
+    margin: 0px 13px;
+}
+
+
+/*---Rodapé---*/ 
+
+.rodape{
+    background-color: rgb(100, 51, 1);
+    margin-top: -10px;
+    color: white;
+    padding: 60px 0px 0px 5px;
+    font-size: 14px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+

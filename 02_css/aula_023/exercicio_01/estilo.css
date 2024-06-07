@@ -1,0 +1,107 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#botao-1{
+    background-color: red;
+    border: 2px dotted black;
+    border-radius: 10px;
+    padding: 10px 15px;
+    cursor: default;
+}
+
+#botao-2{
+    background-color: blue;
+    border: 2px dotted black;
+    border-radius: 10px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+#botao-3{
+    background-color: green;
+    border: 2px dotted black;
+    border-radius: 10px;
+    padding: 10px 15px;
+    cursor: wait;
+}
+
+#botao-4{
+    background-color: maroon;
+    border: 2px dotted black;
+    border-radius: 10px;
+    padding: 10px 15px;
+    cursor: grab;
+}
+
+#botao-5{
+    background-color: pink;
+    border: 2px dotted black;
+    border-radius: 10px;
+    padding: 10px 15px;
+    cursor: grabbing;
+}
+
+#botao-6{
+    background-color: beige;
+    border: 2px dotted black;
+    border-radius: 10px;
+    padding: 10px 15px;
+    cursor: crosshair;
+}
+
+#botao-7{
+    background-color: blueviolet;
+    border: 2px dotted black;
+    border-radius: 10px;
+    padding: 10px 15px;
+    cursor: zoom-in;
+}
+
+#botao-8{
+    background-color: burlywood;
+    border: 2px dotted black;
+    border-radius: 10px;
+    padding: 10px 15px;
+    cursor: zoom-out;
+}
+
+#botao-9{
+    background-color: gold;
+    border: 2px dotted black;
+    border-radius: 10px;
+    padding: 10px 15px;
+    cursor: all-scroll;
+}
+
+#botao-10{
+    background-color: gray;
+    border: 2px dotted black;
+    border-radius: 10px;
+    padding: 10px 15px;
+    cursor: cell;
+}
+
+#botao-11{
+    background-color: rebeccapurple;
+    border: 2px dotted black;
+    border-radius: 10px;
+    padding: 10px 15px;
+    cursor: copy;
+}
+
+#botao-12{
+    background-color: violet;
+    border: 2px dotted black;
+    border-radius: 10px;
+    padding: 10px 15px;
+    cursor: help;
+}
+
+#botao-13{
+    background-color: palegreen;
+    border: 2px dotted black;
+    border-radius: 10px;
+    padding: 10px 15px;
+    cursor: progress;
+}

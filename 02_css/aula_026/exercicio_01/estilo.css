@@ -1,0 +1,35 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+div{
+    width: 300px;
+    height: 300px;
+    margin: 20px auto;
+    border: 0px solid black;
+    border-radius: 20px;
+}
+#div-1{
+    background: conic-gradient(red,orange,yellow);
+}
+#div-2{
+    background:conic-gradient(from 180deg, red, orange, yellow);
+}
+#div-3{
+    background: conic-gradient(red 0deg 120deg,orange 120deg 240deg ,yellow 240deg 260deg);
+    border-radius: 50%;
+}
+#div-4{
+    background: conic-gradient(red 0% 33.3%,orange 33.3% 66.6% ,yellow 66.6% 100%);
+    border-radius: 50%;
+}
+#div-5{
+    background: conic-gradient(at 75% 25%,white, orange,black);
+}
+#div-6{
+    background: repeating-conic-gradient(black 0deg 10deg, blue 10deg 20deg);
+}
+#div-7{
+    background: repeating-conic-gradient(blue 10%, black 20%);
+}

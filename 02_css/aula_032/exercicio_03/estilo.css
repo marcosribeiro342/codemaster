@@ -1,0 +1,39 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.pai{
+    background-color: lightgreen;
+    text-align: justify;
+    margin: 20px auto;
+    width: 400px;
+}
+
+#pai-1{
+    padding: 20px;
+    border: 5px solid black;
+    box-sizing: content-box;
+
+}
+
+#pai-2{
+    padding: 20px;
+    border: 5px solid black;
+    box-sizing: border-box;
+}
+
+#pai-3{
+    padding: 20px;
+    border: 5px solid black;
+    box-sizing: border-box;
+    outline: 5px solid red;
+}
+
+#pai-4{
+    padding: 20px;
+    border: 5px solid black;
+    box-sizing: border-box;
+    outline: 5px solid red;
+    outline-offset: 5px;
+}

@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+    color: red;
+    background-color: black;
+}
+
+h3{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p{
+    border:5px double black;
+    border-radius: 5px
+}
+
+.classe-1{
+    background-color: yellow;
+}
+.animais{
+    background-color: pink;
+}

@@ -1,0 +1,15 @@
+h1,h3{
+    text-align: center;
+}
+.teste{
+    background-color:aquamarine;
+}
+.teste-1{
+    background-color: rebeccapurple;
+    border: 5px solid violet;
+}
+.teste-2{
+    background-color: coral;
+    border: 2px dotted cyan;
+    border-radius: 2px;
+}

@@ -1,0 +1,34 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin: 0px
+}
+div{ 
+    box-sizing: border-box;
+    padding: 5px;
+    border: 2px solid black;
+}
+.pai{
+    background-color: lightgreen;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    margin-bottom: 40px;
+    
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.filho{
+    border: 1px solid black;
+    background-color: coral;
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+}
+
+#pai-1{row-gap: 20px;}
+#pai-2{column-gap: 20px;}
+#pai-3{gap: 20px;}

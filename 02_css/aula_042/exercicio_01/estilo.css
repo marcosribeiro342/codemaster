@@ -1,0 +1,112 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0px;
+    color: white;
+    transition-duration: 0.5s;
+}
+
+nav,footer{
+    background-color: rgb(75, 75,75);
+    font-size:1rem;
+}
+header > nav{
+    height: 60px;
+    width: 700px;
+    position: relative;
+    top: 30px;
+    margin: auto;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: center;
+}
+header > nav > a{
+    color: white;
+    text-decoration: none;
+    padding: 0px 20px;
+    font-size: 19px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition-duration: 1s;
+}
+header > nav > a:hover{
+    background-color: white;
+    color: black;
+}
+
+#foto{
+    background-image: url(imagens/topo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+}
+#foto > .titulo >h1{font-size: 2.5rem;}
+#foto > .titulo >h3{font-size: 1.25rem;}
+#foto > .titulo{
+    backdrop-filter: brightness(150%);
+    background-color: rgba(0,0,0,0.75);
+    margin: 0px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+
+#div-1{
+    background-color: red;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fotografias{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#foto-1,#foto-2,#foto-3,#foto-4{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 275px;
+    font-size: 1.75rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#foto-1{
+    background-image: url("imagens/solar.png");
+}
+#foto-1 > span{
+    backdrop-filter: none;
+}
+#foto-2{
+    background-image: url("imagens/eolica.jpg");
+}
+#foto-3{
+    background-image: url("imagens/hidro.webp");
+}
+#foto-4{
+    background-image: url("imagens/nuclear.jpg");
+}
+
+.fotografias > *:hover{
+    color: red;
+    filter: brightness(150%);
+}
+footer{
+    padding: 12px;
+    text-align: center;
+}
+

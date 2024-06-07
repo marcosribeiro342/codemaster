@@ -1,0 +1,42 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.pai{
+    border: 3px solid black;
+    margin: 20px auto;
+    height: auto;
+    background-image: url("ascensor\ .jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0px;
+    width: 600px;
+}
+
+p{ color: red;}
+
+#pai-1 > p{
+    backdrop-filter: blur(3px);
+    padding: 10px;
+}
+
+#pai-2 > p{
+    backdrop-filter: brightness(50%);
+    padding: 10px;
+}
+
+#pai-3 > p{
+    backdrop-filter: invert(100%);
+    padding: 10px;
+}
+
+#pai-4 > p{
+    backdrop-filter: grayscale(100%);
+    padding: 10px;
+}
+
+#pai-5 > p{
+    backdrop-filter: grayscale(100%) blur(5px) brightness(200%);
+    padding: 10px;
+}

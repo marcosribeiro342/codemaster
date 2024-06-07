@@ -1,0 +1,136 @@
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin: 0px;
+    background-color: rgb(202, 202, 202);
+    color: white;
+}
+p{text-align: justify;}
+.letra{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Cabeçalho */
+#header, #rodape{
+    background-color: black;
+    font-size: 0.75rem;
+    padding: 5px;
+}
+#link{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+a{
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+    padding: 20px 40px;
+}
+a:hover{
+    background-color: white;
+    color: black;
+    font-size: 22px;
+}
+#breve{
+    display: none;
+    color: rgb(125, 125, 125);
+    font-size: 10px;
+    text-align: center;
+    opacity: 0;
+}
+
+#filho-3:hover p{
+    display: block;
+    opacity: 1;
+}
+
+/* Meio do site */
+
+.meio{
+    text-align: center;
+    padding:15px;
+    box-sizing: border-box;
+    border: 10px solid white;
+}
+#pai-2{
+    background-color: rgb(120, 0, 0);
+    border: unset;
+}
+#pai-2 .imagem{
+    border: 2px solid white;
+    color: white;
+    width: 150px;
+    height: 300px;
+    display:inline-block;
+    background-color: rgb(120, 0, 0);
+    margin: 10px; 
+    display: inline-block;  
+}
+#surpresa-1:hover{
+
+    background: url("imagens/joia-1.webp");
+    background-size: 150px 300px;
+    background-repeat: no-repeat;
+    background-position: center;  
+    cursor: pointer;
+}
+
+#surpresa-2:hover{
+    background: url("imagens/joia-2.jpg");
+    background-size: 150px 300px;
+    background-repeat: no-repeat;
+    background-position: center; 
+    cursor: pointer; 
+}
+
+#surpresa-3:hover{
+    background: url("imagens/joia-3.jpg");
+    background-size: 150px 300px;
+    background-repeat: no-repeat;
+    background-position: center; 
+    cursor: pointer; 
+}
+
+#surpresa-4:hover{
+    background: url("imagens/joia-4.webp");
+    background-size: 150px 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;  
+}
+
+#surpresa-5:hover{
+    background: url("imagens/joia-6.webp");
+    background-size:150px 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;  
+}
+
+.off{
+    display: none;
+    color: black;
+    padding-top: 0px;
+}
+
+.imagem:hover span{
+    display: block;
+}
+
+#desconto{ 
+    border-radius: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    padding: 20px;
+    width: 150px;
+    height: 20px;
+    color: black;
+    background-color: white;
+}
+#desconto span{
+    display:none
+}
+.meio:hover ~ #desconto span{display: block;}
+
+/* Rodapé */

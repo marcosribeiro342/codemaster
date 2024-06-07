@@ -1,0 +1,41 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.pai{
+    background-color: lightgreen;
+    text-align: justify;
+    padding: 10px;
+    margin: 20px auto;
+    border: 3px solid black;
+    width: 400px;
+}
+#pai-1::selection{
+    background-color: black;
+    color: orange;
+    text-decoration: underline;
+}
+
+#pai-2 li::marker{
+    color: red;
+}
+#pai-3::first-letter{
+    background-color: yellow;
+    color: red;
+    font-size: x-large;
+}
+
+#pai-4::first-line{
+    background-color: yellow;
+    color: red;
+}
+
+#pai-5 label::before{
+    content: url('imagens/happy.png');
+}
+
+#pai-6 label::after{
+    content: ")";
+}
+

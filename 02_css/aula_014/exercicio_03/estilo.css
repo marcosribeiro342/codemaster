@@ -1,0 +1,27 @@
+body{
+
+    background-image: url("lisboa_02.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+h1{
+    text-align: center;
+    color: red;
+    background-color: black;
+
+}
+
+h3{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p{
+    border:5px double black;
+    border-radius: 5px;
+    height: 300px;
+    color: white;
+    background-color: red;
+    font-size: 25px;
+}

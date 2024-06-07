@@ -1,0 +1,34 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin: 0px;
+}
+
+div{
+    border: 2px solid black;
+    margin-bottom: 20px;
+    margin: auto;
+}
+
+#d1{
+    background-color: blue;
+    width: 50vw;
+    min-width: 200px;
+    max-width: 500px;
+}
+
+#d2{
+    background-color: red;
+    height: 50vw;
+    min-height: 150px;
+    max-height: 300px;
+}
+
+#d3{
+    background-color: green;
+    height: 50vw;
+    min-width: 200px;
+    max-width: 300px;
+    min-height: 200px;
+    max-height: 300px;
+}

@@ -1,0 +1,15 @@
+body{
+    background-image: url(lisboa_02.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+a{
+    color: yellow;
+    font-size: 20px;
+}

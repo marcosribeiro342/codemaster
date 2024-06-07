@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exercício 22.2</title>
+        <link rel="stylesheet" href="estilo.css">
+    </head>
+
+    <body>
+
+        <h1>Exemplos de Select</h1>
+
+        <hr>
+        <br>
+
+        <form>
+
+            <label for="item">Select 1:</label>
+            <select id="item">
+                <option value="opcao-1">opção 1</option>
+            </select>
+
+            <br>
+            <br>
+
+            <label for="item"></label>
+            <select id="item">
+                <option value="">---Escolha---</option>
+            </select>
+
+            <br>
+            <br>
+
+            <label for="item">Select 3:</label>
+            <select id="item">
+                <option value="opcao-3">opção 3</option>
+                <option value="opcao-4">opção 4</option>
+                <option value="opcao-5" disabled>opção 5</option>
+                <option value="opcao-6">opção 6</option>
+                <option value="opcao-7">opção 7</option>
+                <option value="opcao-8" selected>opção 8</option>
+            </select>
+
+            <br>
+            <br>
+
+            <label for="item">Select 4</label>
+            <select id="item" disabled>
+                <option value="opcao-10">opção 10</option>
+                <option value="opcao-11">opção 11</option>
+                <option value="opcao-12">opção 12</option>
+            </select>
+
+            <br>
+            <br>
+
+            <label for="item">Select 5:</label>
+            <select id="item">
+                <optgroup label=Opções-13-14-15 >
+                    <option value="opção-13">opção 13</option>
+                    <option value="opção-14" disabled>opção 14</option>
+                    <option value="opção-15">opção 15</option>
+                </optgroup>
+
+                <optgroup label="opções-16-16-18">
+                    <option value="opção-16">opção 16</option>
+                    <option value="opção-17">opção 17</option>
+                    <option value="opção-18">opção 18</option>
+                </optgroup>
+
+                <optgroup label="opções-19-20-21">
+                    <option value="opção-19">opção 19</option>
+                    <option value="opção-20">opção 20</option>
+                    <option value="opção-21">opção 21</option>
+                </optgroup>
+            </select>
+
+            <br>
+            <br>
+            <hr>
+            <br>
+
+            <input type="submit" value="Enviar!">
+            <input type="reset" value="Reset">
+
+            <br>
+            <h1>Exemplos de datalist</h1>
+            <hr>
+            <br>
+
+            <label for="lista-de-itens">Datalista 1:</label>
+            <input list="lista-de-itens" type="text" id="texto">
+
+            <datalist id="lista-de-itens">
+                <option value="Lisboa"></option>
+                <option value="Porto"></option>
+                <option value="Coimbra"></option>
+                <option value="Braga"></option>
+                <option value="Vila Real"></option>
+            </datalist>
+
+            <br>
+            <br>
+            <hr>
+            <br>
+
+            <input type="submit" value="Enviar!">
+            <input type="reset" value="Reset">
+
+        </form>
+
+    </body>
+
+</html>

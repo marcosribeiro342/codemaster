@@ -1,0 +1,50 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+div{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+.pai{
+    background-color: lightgreen;
+    margin: inherit auto;
+    width: 500px;
+    border-width: 3px;
+}
+#pai-1 > div{background-color: red;}
+#pai-2 div{background-color: red;}
+#pai-3 > * > button{background-color: red;}
+#pai-4 > * > * >button {background-color: red;}
+#pai-5 button{background-color: red;}
+#pai-6 *{background-color: red;}
+
+/* #pai-1{
+    background-color: lightgreen;
+}
+#pai-1 > div{ background-color: red;}
+#pai-1 > div > div{background-color: white;}
+
+#pai-2{background-color: lightgreen;}
+#pai-2 div{background-color: red;}
+
+#pai-3{background-color: lightgreen;}
+#pai-3 div{background-color: white;}
+#pai-3 > div button{background-color: red;}
+#pai-3 > div > div button{background-color: white;}
+
+#pai-4{background-color: lightgreen;}
+#pai-4 div{background-color: white;}
+#pai-4 > div > div button{background-color: red;}
+
+#pai-5{background-color: lightgreen;}
+#pai-5 div{background-color: white;}
+#pai-5 > * button{background-color: red;}
+
+#pai-6{background-color: lightgreen;}
+#pai-6 div{background-color: red;} */
+
+
+

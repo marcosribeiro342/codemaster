@@ -1,0 +1,77 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1{
+    text-align: center;
+}
+div{
+   margin: 10px;
+}
+.filho{
+    background-color: pink;
+    height: 30px;
+}
+
+#filho-1{
+    width: 50%;
+    background-color: red;
+    border: 1px solid black;
+}
+#pai-2{width: 500px;}
+#filho-2{
+    width: 50vw;
+    background-color: green;
+    border: 1px solid black;
+    color: white;
+}
+
+#pai-3{width: 500px;}
+#filho-3{
+    width: 50vh;
+    background-color: blue;
+    color: white;
+    border: 1px solid black;
+}
+
+#pai-4{width: 500px;}
+#filho-4{
+    width: 50vmin;
+    background-color: yellow;
+    border: 1px solid black;
+}
+#pai-5{width: 500px;}
+#filho-5{
+    width: 50vmax;
+    background-color: orange;
+    border: 1px solid black;
+}
+
+#pai-6{ font-size: 30px;}
+#filho-6{
+    width: 50em;
+    background-color: pink;
+    border: 1px solid black;
+}
+
+html{font-size:30px ;}
+#filho-7{
+    width: 50rem;
+    background-color: violet;
+    border: 1px solid black;
+}
+
+#pai-8{font-size: 20px;}
+#filho-8{
+    width: 50ch;
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+#pai-9{font-size: 20px;}
+#filho-9{
+    width: 50ex;
+    background-color: maroon;
+    border: 1px solid black;
+}
+
+

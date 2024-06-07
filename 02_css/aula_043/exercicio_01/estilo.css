@@ -1,0 +1,32 @@
+:root{
+    --tamanho:200px;
+    --fundo-vermelho: red;
+    --fundo-verde:green;
+    --letra-italica:italic;
+    --cor-amarelo:yellow;
+    --cor-azul:blue;
+    --bordas:3px solid black;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
+}
+
+div{
+    border: 1px solid black;
+    height: 50px;
+    margin: 20px auto;
+    text-align: center;
+    width: var(--tamanho);
+    border: var(--bordas);
+}
+
+#div-1,#div-3,#div-5{
+    background-color: var(--fundo-vermelho);
+    color: var(--cor-amarelo);
+}
+#div-2,#div-4{
+    background-color: var(--fundo-verde);
+    color: var(--cor-azul);
+    font-style: var(--letra-italica);
+}

@@ -1,0 +1,78 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin: 0px;
+}
+
+div{
+    width: 300px;
+    height: 300px;
+    margin: 20px auto;
+    border: 0px solid black;
+    border-radius: 20px;
+}
+
+#div-1{
+    background: linear-gradient(to left, yellow,red);
+}
+
+#div-2{
+    background: linear-gradient(to right, yellow,red);
+}
+
+#div-3{
+    background: linear-gradient(to top, red,yellow);
+}
+
+#div-4{
+    background: linear-gradient(to bottom, red,yellow);
+}
+
+#div-5{
+    background: linear-gradient(to bottom left, black,red,blue,white, purple);
+}
+
+#div-6{
+    background: linear-gradient(to bottom right, black,red,blue,white, purple);
+}
+
+#div-7{
+    background: linear-gradient(to top left,  black,red,blue,white, purple);
+}
+
+#div-8{
+    background: linear-gradient(to top right,  black,red,blue,white, purple);
+}
+
+#div-9{
+    background: linear-gradient(32.5deg, black,blue, cyan);  
+}
+
+#div-10{
+    background: linear-gradient(300deg, black,blue, cyan);  
+}
+
+#div-11{
+    background: linear-gradient(0.75turn, pink, violet, red); 
+}
+
+#div-12{
+    background: linear-gradient(0.25turn, pink, violet, red); 
+}
+
+#div-13{
+    background: repeating-linear-gradient( to right, red 0% 33.3%,white 33.3% 66.6%, blue 66.6% 100%);
+}
+
+#div-14{
+    background: repeating-linear-gradient( to bottom, red 0% 33.3%,white 33.3% 66.6%, blue 66.6% 100%);
+}
+
+#div-15{
+    background: repeating-linear-gradient( to bottom right, red 0% 33.3%,white 33.3% 66.6%, blue 66.6% 100%);
+}
+
+#div-16{
+    background: linear-gradient(to right, rgba(255, 0, 0, 0.26),rgba(255, 255, 255, 0.342),rgba(255, 192, 203, 0.212)), 
+    linear-gradient(to top, green, violet, black);
+}

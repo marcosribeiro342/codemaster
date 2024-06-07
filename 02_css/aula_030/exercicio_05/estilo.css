@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Danfo&display=swap');
+body{
+    text-align: center;
+    font-family: 'Danfo', sans-serif; 
+}
+
+@font-face {
+    font-family: jacquard_12;
+    src: url("Jacquard_12/Jacquard12-Regular.ttf"); 
+}
+
+#pai-1{
+    font-family: jacquard_12;
+    font-weight: 800;
+    
+}
+
+#pai-3{
+    text-transform: capitalize;
+}

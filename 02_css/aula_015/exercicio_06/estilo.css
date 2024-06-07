@@ -1,0 +1,23 @@
+ol{
+    border: 5px solid black;
+    border-radius: 20px;
+    width: 150px;
+}
+.verde{
+    background-color: rgb(0, 255, 0);
+}
+.amarelo{
+    background-color: yellow;
+    text-align: right;
+}
+#especial{
+    text-align: center;
+    border: 3px solid red;
+    font-size: 30px;
+}
+.inicio{
+    border-top-right-radius: 20px;
+}
+.fim{
+    border-bottom-right-radius: 20px;
+}

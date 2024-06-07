@@ -1,0 +1,30 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1{
+    text-align: center;
+}
+div{
+    border: 1px solid black;
+    text-align: justify;
+}
+
+.teste{
+    background-color: orange;
+    width: 400px;
+}
+.div-1{
+    background-color: blue;
+    width: 400px;
+    margin: auto;
+    color: white;
+}
+.div-2{
+    background-color: red;
+}
+.div-3{
+    background-color: green;
+    margin:-20px 50px;
+    width: 400px;
+    color: white;
+}

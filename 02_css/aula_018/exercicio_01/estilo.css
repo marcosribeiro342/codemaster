@@ -1,0 +1,31 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+div{
+    text-align: justify;
+}
+span{
+    background-color: yellowgreen;
+    padding: 20px 0px 0px 20px;
+    margin-left: 100px;
+}
+.teste{
+    border: 2px dotted red;
+}
+.teste-1{
+    border: 10px inset green;
+    padding: 30px 0px 30px 0px;
+}
+.div-1{
+    background-color: pink;
+    border: 3px solid red;
+    border-radius: 50px;
+    text-align: center;
+}
+#especial{
+    margin-top: 50px;
+}
+#especial-2{
+    margin-top:-20px;
+}

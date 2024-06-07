@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Danfo&family=Rubik+Doodle+Triangles&family=Rubik+Glitch+Pop&display=swap');
+
+h1{font-family: 'danfo';}
+h3{font-family: 'Rubik Doodle Triangles';}
+p{font-family: 'Rubik Glitch Pop';}
+
+
+@font-face {
+    font-family: 'marcos' ;
+    src: url("fonts/Danfo/Danfo-Regular-VariableFont_ELSH.ttf");
+}
+
+p{font-family: 'marcos';}

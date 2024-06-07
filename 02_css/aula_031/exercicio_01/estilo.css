@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch+Pop&display=swap');
+
+@font-face {
+    font-family: "honk";
+    src: url(fonts/Honk-Regular-VariableFont_MORF\,SHLN.ttf);
+}
+
+body{
+    text-align: center;
+}
+div{
+    border: 2px solid black;
+    width: 400px;
+    margin: 20px auto;
+    font-size: 32px;
+    padding: 20px;
+}
+
+#div-1{
+    font-family: 'Workbench';
+    background-color: lightgreen;
+}
+
+#div-2{
+    font-family: 'Rubik Glitch Pop';
+    background-color: lightblue;
+}
+
+#div-3{
+    font-family: 'honk';
+    background-color: lightcyan;
+}
+
+#div-4{
+    font-family: 'Mogilte';
+    background-color: lightcoral;
+}
+
+
+
+

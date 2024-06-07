@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(23, 23,23);
+
+}
+div{
+    border-radius: 25px;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+    margin: auto;
+    background-size: cover;
+    background-position: center;
+}
+.div-1{
+    background-image: url(neve.jpg);
+    width: 500px;
+    height: 400px;
+   
+}
+#especial{
+    background-image: url(praia.jpg);
+    width: 400px;
+    height: 250px;   
+}
