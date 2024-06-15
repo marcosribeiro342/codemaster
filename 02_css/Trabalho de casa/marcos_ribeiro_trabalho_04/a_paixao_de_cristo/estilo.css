@@ -1,0 +1,102 @@
+*{box-sizing: border-box;}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* cabeçalho */
+
+header{
+    text-align: center;
+    background-color:green;
+    padding: 15px;
+}
+
+h2{
+    margin-top: 0px;
+}
+
+nav{
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+* a{
+    text-decoration: none;
+    color:white;
+}
+
+nav > a{
+    margin-top: 10px;
+    padding: 0px 20px 10px;
+    transition-duration: 1s;
+}
+
+nav > a:hover{
+    color: rgb(255,255,0);
+}
+
+/* Meio do site */
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    row-gap: 40px;
+    background-color: black;
+    padding: 50px 0px;
+}
+div{width: 400px;}
+
+.filme,button,div{margin: auto;}
+
+.filme, button{border: 1px solid rgb(0, 255, 0);}
+.filme{
+    border-radius: 20px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+button{
+    background-color: rgba(0, 255, 0, 0.25);
+    padding: 5px 15px;
+    border-radius: 10px;
+    transition-duration: 1s;
+
+}
+
+button:hover{
+    background-color: rgba(255,255,0,0.75);
+    border: 1px solid yellow;
+}
+
+/* Rodapé */
+
+footer{
+    background-color: green;
+    padding: 10px;
+    text-align: center;
+}
+
+@media all and (width <= 800px){
+
+    nav{width: 90%;}
+
+    button{margin:auto}
+
+}
