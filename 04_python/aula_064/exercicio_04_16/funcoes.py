@@ -4,9 +4,9 @@ import os
 def precoMaca():
     maca = int(input("Diga quantas maças quer levar? "))
     if maca < (12):
-        print(f"O preço total é ({maca * 1.30:.2f})")
+        print(f"\nO preço total é ({maca * 1.30:.2f})")
     else:
-        print(f"O preço total é ({maca * 1:.2f})")
+        print(f"\nO preço total é ({maca * 1:.2f})")
 
    
 

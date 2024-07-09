@@ -3,11 +3,10 @@ import os
 #Funções
 def numerosCrescentes(x, y):
     if x < y:
-        print(f"Os valores crecentes são {x:.0f} e {y:.0f}.")
-    elif y < x:
-        print(f"Os valores crecentes são {y:.0f} e {x:.0f}.")
+        print(f"Os valores crescentes são {x:.0f} e {y:.0f}.")
     else:
-        print("Entrada Invalida")
+        print(f"Os valores crescentes são {y:.0f} e {x:.0f}.")
+
 
    
 

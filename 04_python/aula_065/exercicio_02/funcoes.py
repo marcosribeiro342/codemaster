@@ -8,6 +8,4 @@ import time
 def limpa():
     if(os.name =="nt"): os.system("cls")
     else:(os.system("clear"))
-
-def aguarde(tempo): 
-    time.sleep(tempo)
+def aguarde(tempo): time.sleep(tempo)
