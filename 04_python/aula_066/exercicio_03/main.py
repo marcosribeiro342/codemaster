@@ -8,7 +8,7 @@ print("=== Exercicio Principal ===")
 print()
 
 numero = 1
-while(numero <= num):
+while(numero <= 100):
     print(numero)
     numero += 1
 

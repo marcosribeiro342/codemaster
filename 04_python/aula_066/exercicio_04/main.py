@@ -2,22 +2,25 @@ import funcoes
 from funcoes import *
 limpa()
 
-resposta = ""
-r_1 = ""
+resposta =""
+tentativas = 1
+carta = input("Queres tirar a carta de condução? ")
+limpa()
 
-while(resposta.lower() != "nao"):
-    resposta = input("Queres tirar a carta de condução? ")
-    if(resposta.lower() == "sim"):
-        print("estudar para o teste")
-        while(r_1.lower() != "sim"):
-            r_1 = input("Voce passou no teste? ")
-            if(r_1.lower() == "nao"):
-                print("estudar para o teste")
+if (carta.lower() == "sim" ):
+    while (resposta.lower() != "sim"):
+        print()
+        print(f"Estude para o teste ({tentativas}) ")
+        resposta = input(f"Passou no teste ({tentativas})? ")
+        tentativas += 1
+    print()
+    print("Parabéns")
+    print(f"Voce foi aprovado no teste ({tentativas - 1})")
+    
+elif (carta.lower() == "nao"):print( "Utilize transportes publicos")
 
-            else:print("Parabéns!!")
-                   
-
-print("Anda de transportes publicos")
+else:
+    print("opçao invalida")
 
 
 print("\n\n")
