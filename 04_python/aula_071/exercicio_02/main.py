@@ -10,10 +10,8 @@ while(True):
     
     animar2("Aguarde")
 
-    if(opcao == 1): 
-        vendas()
-    elif(opcao == 2):
-        exibirhistorico()
+    if(opcao == 1): vendas()
+    elif(opcao == 2):exibirhistorico()
     elif(opcao == 3):
         animar2("A sair")
         break
@@ -25,3 +23,4 @@ while(True):
 
 
 print("\n\n")
+

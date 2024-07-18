@@ -1,34 +1,9 @@
 import os
 import time
-import globais
 
 #Funções
 
-def exibirMenu():
-    animar2("Aguarde")
-    print("===Padaria do Python===\n")
-    print("1 - Vender")
-    print("2 - Ver hitórico")
-    print("3 - Sair\n")
-    return int(input("--Opção: "))
-    
 
-def vendas():
-    print("===Vender===\n")
-    descricao = input("-Descrição da venda: ")
-    valor = float(input("-valor total da venda: "))
-    print()
-    if(valor > 0): 
-        print("---Sucesso---")
-        globais.saldo += valor
-        globais.historico += f"{descricao} - {valor:.2f} €\n"
-    else: print("---valor errado---")
-       
-
-def exibirhistorico():
-    print("===Histórico===\n")
-    print(f"Total de vendas: {globais.saldo:.2f} € \n")
-    print(globais.historico)
 
 
 # Funções Especiais
