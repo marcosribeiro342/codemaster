@@ -1,17 +1,21 @@
 from funcoes import *
+import random
 limpa()
 
-nome_dos_alunos = []
-numero_de_alunos = int(input("-Quantos alunos serão Registados: "))
+nomes = ["Marcos", "João","Rui","Paulo","Carina","Maria","Ana","Rita","Carolina","Ines"]
+apelidos=["Silva", "Ribeiro", "Oliveira","Barreiro","Pereira"]
+
+aleatorio =random.randint(0,11)
+
+numero_de_nomes = int(input("-Digite o total de nomes completos que voce deseja gerar: "))
 animar2("Aguarde")
 
-for i in range(numero_de_alunos):
-    nome_dos_alunos.append(input(f"-Diga o nome do(a) [{i+1}]º aluno(a): "))
+for i in range(1,numero_de_nomes+1):
+  n =random.randint(0,len(nomes)-1)
+  a =random.randint(0,len(apelidos)-1)
+  print(f"{i}-{nomes[n]} {apelidos[a]}")
 
-animar2("Aguarde")
-nome_dos_alunos.sort()
-print("=== Lista de Alunos Ordenada ===\n")
-for i in range(len(nome_dos_alunos)):print(f"{i+1} - {nome_dos_alunos[i]}")
+
 
 
 print("\n\n")
