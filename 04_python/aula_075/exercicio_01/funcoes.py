@@ -15,8 +15,10 @@ def exibirMenu():
 
 def cadastrarPessoas():
     print("--- Cadastro de uma nova pessoa ---\n")
-    globais.pessoas.append(input("- Digite o nome da pessoa: "))
-    print("\n --- Sucesso --")
+    novo_nome = input("- Digite o nome da pessoa: ")
+    if(not(novo_nome in globais.pessoas)):
+        globais.pessoas.append()
+        print("\n --- Sucesso --")
 
 def editarPessoas():
     print("--- Edição da pessoa ---\n")
@@ -24,8 +26,10 @@ def editarPessoas():
         
     id = int(input("\n-Digite o código da pessoa que queres editar: ")) 
     if(id >= 0 and id < len(globais.pessoas)):
-        globais.pessoas[id] = input(f"\n-Digite nome para substituir ({globais.pessoas[id]}): ")
-        print("\n--- Sucesso ---")
+        novo_nome = input(f"\n-Digite nome para substituir ({globais.pessoas[id]}): ")
+        if(not(novo_nome in globais.pessoas)):
+            globais.pessoas[id] = novo_nome
+            print("\n--- Sucesso ---")
     else:
         print("\n--- CÓDIGO INVÁLIDO ---")
 
