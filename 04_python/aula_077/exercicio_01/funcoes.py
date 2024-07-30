@@ -109,7 +109,7 @@ def editarSalario(id):
 
 def nomeJaExiste(nome):
     for c in globais.colaboradores:
-        if(c[0] == nome):True
+        if(c[0] == nome):return True
     return False
 
 
