@@ -3,12 +3,13 @@ import time
 import globais
 #Funções
 
-def verificarLogin(login_digitado, senha_digitada):
+def verificarLogin(login_digitado):
     for u in globais.usuarios:
-        if (u.login == login_digitado and u.senha == senha_digitada):
+        if (u.login == login_digitado):
+            print()
+            u.toString()
             return True
-        return False
-
+    return False
 
 
 # Funções Especiais

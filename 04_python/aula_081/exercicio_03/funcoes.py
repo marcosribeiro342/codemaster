@@ -7,7 +7,7 @@ def verificarLogin(login_digitado, senha_digitada):
     for u in globais.usuarios:
         if (u.login == login_digitado and u.senha == senha_digitada):
             return True
-        return False
+    return False
 
 
 
